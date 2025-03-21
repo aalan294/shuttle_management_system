@@ -56,20 +56,18 @@ moveinsync-backend/
 ### **1️⃣ Admin APIs**
 | Method | Endpoint | Description |
 |--------|---------|-------------|
-| **POST** | `/admin/register` | Register Admin |
-| **POST** | `/admin/login` | Admin Login |
-| **POST** | `/admin/add-bus` | Add New Bus |
-| **GET** | `/admin/all-buses` | Fetch All Buses |
-| **PUT** | `/admin/update-bus/:busNumber` | Update Bus Details |
-| **DELETE** | `/admin/delete-bus/:busNumber` | Delete a Bus |
+| **POST** | `/api/admin/register` | Register Admin |
+| **POST** | `/api/admin/login` | Admin Login (Default Username: `admin123`, Password: `1234`) |
+| **POST** | `/api/admin/new-bus` | Add New Bus |
+| **GET** | `/api/admin/get-bus` | Fetch All Buses |
 
 ### **2️⃣ Student APIs**
 | Method | Endpoint | Description |
 |--------|---------|-------------|
-| **POST** | `/student/register` | Register Student |
-| **POST** | `/student/login` | Student Login |
-| **POST** | `/student/book-ride` | Book a Ride |
-| **GET** | `/student/all` | Get All Students |
+| **POST** | `/api/student/register` | Register Student |
+| **POST** | `/api/student/login` | Student Login |
+| **POST** | `/api/student/book-ride` | Book a Ride |
+| **GET** | `/api/student/all` | Get All Students |
 
 ---
 
