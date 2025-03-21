@@ -1,6 +1,14 @@
 # Shuttle Management System - Backend
 
 ## 🚀 Overview
+
+## 🛠 Tech Stack Used
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB (Mongoose ORM)
+- **Authentication:** JWT (JSON Web Token)
+- **Security:** bcrypt for password hashing
+- **Middleware:** CORS, dotenv
+  
 The Shuttle Management System is designed to manage bus transportation for students within a college. It enables students to book rides, admins to manage buses and stops, and drivers to update bus locations.
 
 ---
